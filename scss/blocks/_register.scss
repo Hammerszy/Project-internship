@@ -1,0 +1,87 @@
+.register  {
+    padding-bottom: 200px;
+    display: none;
+}
+
+
+.register__wrrap {
+    background-color: $bg-light-gray;
+    padding: 69px 50px;
+    border-radius: 35px;
+    @media screen and (max-width: 768px) {
+        text-align: -webkit-center;
+    }
+}    
+
+.register__block {
+
+    display: flex;
+    justify-content: space-between;
+    @media screen and (max-width: 768px) {
+        display: block;
+    }
+}
+
+.register__content {
+    padding: 59px 0;
+
+    span {
+        padding: 0;
+    }
+
+    p {
+        color: #222;
+        max-width: 452px;
+        line-height: 1.1em;
+        @media screen and (max-width: 768px) {
+           text-align: left;
+        }
+    }
+}
+
+.input__register {
+    display: block;
+    width: 415px;   
+    padding: 16px 35px;
+    border: none;
+    border-radius: 50px;
+    margin-bottom: 12px;
+    color: #C9C9C9;
+    font-size: 14px;
+}
+
+.input__register::placeholder {
+    color: #C9C9C9;
+    font-size: 14px;
+}
+
+.form__text {
+    font-size: 14px;
+    max-width: 415px;
+    color: #393636;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    a {
+        text-decoration: underline;
+        color: #393636;
+    }
+}
+
+.btn__register {
+    font-weight: 500;
+    font-size: 18px;
+    background-color: $bg-dark;
+    width: 415px;
+    display: block;
+    padding: 16px 0;
+    height: 54px;
+    border-radius: 50px;
+    text-align: center;
+    color: $white;
+    transition: opacity 0.3s ease-in;
+
+    &:hover {
+        opacity: .75;
+    }
+}

@@ -1,0 +1,224 @@
+.blocks {
+    background-color: $bg-dark;
+    border-top-left-radius: 50px; 
+    border-top-right-radius: 50px;
+    padding: 100px 70px 80px 70px
+}
+
+.footer__wrrap  {
+    color: $white;
+    display: flex;
+    @media screen and (max-width: 768px) {
+        display: block;
+
+        .footer__info {
+            margin-bottom: 20px;
+        }
+    }
+
+
+    img {
+        margin-bottom: 25px;
+    }
+}
+
+.subscribe__txt {
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 12px;
+    @media screen and (max-width: 768px) {
+        font-size: 16px;
+        margin-bottom: 32px;
+     }
+}
+
+.footer__info {
+    display: flex;
+    @media screen and (max-width: 768px) {
+        display: block;
+     }
+    @media screen and (max-width: 425px) {
+        display: block;
+     }
+}
+
+.block__txt {
+    max-width: 428px;
+    font-size: 20px;
+    margin-bottom: 48px;
+    line-height: 1.2em;
+    @media screen and (max-width: 900px) {
+        font-size: 17px;
+        
+     }
+    @media screen and (max-width: 768px) {
+        font-size: 17px;
+     }
+     @media screen and (max-width: 375px) {
+        font-size: 12px;
+        margin-bottom: 31px;
+    }
+}
+
+.subscribe-form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    position: relative;
+    @media screen and (max-width: 900px) {
+        display: block;
+     }
+    @media screen and (max-width: 425px) {
+        display: block;
+    }
+    input {
+        border: 2px solid $white;
+        padding: 20px 24px;
+        font-size: 20px;
+        color: white;
+        border-radius: 50px;
+        background: transparent;
+        width: 100%;
+        @media screen and (max-width: 900px) {
+            font-size: 16px;
+            margin-bottom: 8px;
+         }
+        @media screen and (max-width: 768px) {
+            font-size: 14px;
+            padding: 14px 24px;
+         }
+         @media screen and (max-width: 425px) {
+            margin-bottom: 8px;
+            font-size: 12px;
+        }
+        &::placeholder {
+            color: #ddd;
+        }
+    }
+}
+
+.input__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $white;
+    color: $dark;
+    font-size: 20px;
+    padding: 8px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    position: absolute;
+    right: 9px;
+    top: 12px;
+    @media screen and (max-width: 900px) {
+        position: static;
+     }
+    @media screen and (max-width: 768px) {
+        font-size: 14px;
+        position: absolute;
+        right: 0;
+        top: auto;
+        padding: 4px 20px
+     }
+     @media screen and (max-width: 425px) {
+        position: static;
+    }
+    
+    svg {
+        margin-left: 10px;
+    }
+    
+    &:hover {
+        opacity: .75;
+    }
+}
+
+.input__txt {
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: 51px;
+}
+
+.info__block {
+    margin-right: 20px;
+    h3 {
+        font-weight: 700;
+        font-size: 20px;
+        max-width: 200px;
+        margin-bottom: 20px;
+        white-space: nowrap;
+
+        @media screen and (max-width: 768px) {
+            font-size: 18px;
+         }
+    }
+
+    ul {
+        font-size: 14px;
+    }
+
+}
+
+.social__links {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    svg {
+        margin-right: 12px;
+    }
+
+    &:hover {
+        opacity: .75;
+    }
+}
+
+.icons {
+    @media screen and (max-width: 425px) {
+        display: flex;
+    }
+    svg {
+        margin-right: 5px;
+        cursor: pointer;
+    }
+}
+
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+
+    @media screen and (max-width: 768px) {
+        display: block;
+
+        span {
+            font-size: 14px;
+            margin-bottom: 10px;
+            display: inline-block;
+        }
+     }
+     
+    span {
+        font-size: 20px;
+        @media screen and (max-width: 768px) {
+            font-size: 14px;
+            margin-bottom: 10px;
+            display: inline-block;
+         }
+    }
+    color: $white
+}
+
+.policy__txt {
+    font-size: 20px;
+    @media screen and (max-width: 768px) {
+        font-size: 14px;  
+     }
+    span {
+        margin-left: 32px;
+        @media screen and (max-width: 768px) {
+            font-size: 14px;
+            
+         }
+    }
+    
+}
+

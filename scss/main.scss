@@ -1,0 +1,24 @@
+//base
+
+@import './base/reset';
+@import './base/vars';
+@import './base/base';
+
+//mixins 
+
+@import './base/mixin';
+
+//blocks
+
+@import './blocks/header';
+@import './blocks/hero';
+@import './blocks/about-us';
+@import './blocks/services-offer';
+@import './blocks/education';
+@import './blocks/career-path';
+@import './blocks/sercives-offer-slider';
+@import './blocks/career-center';
+@import './blocks/pricing-options';
+@import './blocks/customers-testmonials';
+@import './blocks/register';
+@import './blocks/footer';

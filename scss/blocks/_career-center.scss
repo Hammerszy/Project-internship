@@ -1,0 +1,29 @@
+.career__center {
+    padding-bottom: 200px;
+    
+}
+
+.career__wrrap {
+  padding-top: 0;
+  padding-top: 111px;
+}
+
+.career__txt {
+    max-width: 500px;
+    color: $white;
+    margin-bottom: 40px;
+    line-height: 1.1em;
+    @media screen and (max-width: 375px) {
+      font-size: 12px;
+   }
+}
+
+.career__image {
+    position: absolute;
+    top: -12%;
+    right: -4%;
+    @media screen and (max-width: 900px) {
+      position: static;
+   }
+   
+}

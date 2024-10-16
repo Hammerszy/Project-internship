@@ -1,0 +1,95 @@
+.adult__Learning {
+    padding-bottom: 200px;
+    
+}
+
+
+.career-path {
+    padding: 83px 50px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 40px;
+    position: relative;
+    z-index: 3;
+    overflow: hidden;
+
+    @media screen and (max-width: 900px) {
+        display: block;
+        text-align: -webkit-center;
+     }
+    @media screen and (max-width: 768px) {
+        text-align: -webkit-center;
+        display: block;
+     }
+}
+
+
+.adult__txt {
+    max-width: 509px;
+    color: $silver-gray;
+    line-height: 1.1em;
+    margin-bottom: 20px;
+}
+
+.adult__btn {
+    margin-bottom: 4px;
+}
+
+.career__links {
+    margin-bottom: 40px;
+    display: block;
+    max-width: 500px;
+
+    @media screen and (max-width: 768px) {
+        margin-bottom: 25px;
+
+        .programs__title {
+            font-size: 32px;
+            display: block;
+        }
+     }
+     @media screen and (max-width: 375px) {
+        .programs__title {
+            font-size: 24px;
+        }
+     }
+}
+
+.choose__btn {
+    font-size: 18px;
+    font-weight: 500;
+    color: $jet-black;
+    background-color: $white;
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 32px;
+    border-radius: 50px;
+    @media screen and (max-width: 375px) {
+        font-size: 11px;
+        white-space: nowrap;
+     }
+     
+
+    svg {
+        margin-left: 8px;
+    }
+
+    &:hover {
+        opacity: .75;
+    }
+}
+
+.career__img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-height: 408px;
+    @media screen and (max-width: 900px) {
+        position: static;
+     }
+    @media screen and (max-width: 768px) {
+        position: static;
+     }
+}
+
+
